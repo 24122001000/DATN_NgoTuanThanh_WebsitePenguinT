@@ -1,0 +1,60 @@
+body {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    background: #fff;
+}
+
+.flex {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700&amp;amp;subset=latin-ext'); */
+
+body {
+    background-color: #ffff;
+    height: 100vh;
+    font-family: 'Work+Sans', sans-serif;
+    background: linear-gradient(to top, #fff 10%, rgba(93, 42, 141, 0.4) 90%) no-repeat
+}
+
+
+.wrapper {
+    width: 120%px;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 30px 40px;
+    box-shadow: 20px 20px 80px rgb(206, 206, 206)
+}
+
+.h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #007bff;
+    font-style: italic
+}
+h5{
+    color: #007bff;
+}
+input {
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #007bff;
+    color: #007bff;
+    font-family: 'Work+Sans', sans-serif
+}
